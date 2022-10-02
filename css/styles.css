@@ -32,7 +32,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
 .header ul {
   margin-left: 93px;
   list-style: none;
@@ -55,6 +54,10 @@ body {
 }
 #header-active-link {
   color: var(--accent-color);
+}
+
+.section {
+  padding-top: 94px;
 }
 
 .headers {
@@ -97,7 +100,6 @@ body {
 }
 
 .features {
-  margin-top: 94px;
   line-height: 24px;
   font-size: 14px;
 }
@@ -120,7 +122,6 @@ body {
 }
 
 .whatWeDo {
-  margin: 100px 0px 94px 0px;
   text-align: center;
 }
 .whatWeDo img {
@@ -192,7 +193,6 @@ footer {
 .filter-buttons-container {
   margin: auto;
   width: 611px;
-  margin-top: 94px;
   display: flex;
   justify-content: center;
   gap: 8px;
