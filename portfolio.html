@@ -13,129 +13,151 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-content">
-        <nav style="display: flex">
-          <a href="index.html" id="logo">WebStudio</a>
-          <ul>
-            <li><a href="index.html">Studio</a></li>
-            <li>
-              <a href="portfolio.html" id="header-active-link">Portfolio</a>
+      <div class="container header-content">
+        <nav class="header-nav">
+          <a href="index.html" class="logo link">WebStudio</a>
+          <ul class="list header-ul">
+            <li class="header-item">
+              <a href="#" class="header-active-link link">Studio</a>
             </li>
-            <li><a href="#">Contacts</a></li>
+            <li class="header-item">
+              <a href="portfolio.html" class="header-nav-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-item">
+              <a href="#" class="header-nav-link link">Contacts</a>
+            </li>
           </ul>
         </nav>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com" id="header-contacts"
-              >info@devstudio.com</a
-            >
+        <ul class="header-ul list">
+          <li class="header-item">
+            <a href="mailto:info@devstudio.com" class="header-contacts link"
+              >info@devstudio.com
+            </a>
           </li>
-          <li>
-            <a href="tel:+380961111111" id="header-contacts"
-              >+38 096 111 11 11</a
-            >
+          <li class="header-item">
+            <a href="tel:+380961111111" class="header-contacts link"
+              >+38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
     </header>
     <main>
       <section class="section">
-        <div class="filter-buttons-container">
-          <button type="button" class="active-filter-button">All</button>
-          <button type="button" class="filter-button">Web-sites</button>
-          <button type="button" class="filter-button" style="flex-grow: 2">
-            Apps
-          </button>
-          <button type="button" class="filter-button">Design</button>
-          <button type="button" class="filter-button">Marketing</button>
-        </div>
-        <div class="cards-container">
-          <ul class="cards">
-            <li>
-              <img src="images/portfolio1.jpg" alt="" />
-              <div class="card-description">
-                <p class="card-description-name">Technoduck</p>
-                <p class="card-description-text">Web-site</p>
-              </div>
-            </li>
-            <li>
-              <img src="images/portfolio2.jpg" alt="" />
-              <div class="card-description">
-                <p class="card-description-name">
-                  Poster New Orlean vs Golden Star
-                </p>
-                <p class="card-description-text">Design</p>
-              </div>
-            </li>
-            <li>
-              <img src="images/portfolio3.jpg" alt="" />
-              <div class="card-description">
-                <p class="card-description-name">Seafood Restaurant</p>
-                <p class="card-description-text">Apps</p>
-              </div>
-            </li>
-            <li>
-              <img src="images/portfolio4.jpg" alt="" />
-              <div class="card-description">
-                <p class="card-description-name">Project Prime</p>
-                <p class="card-description-text">Marketing</p>
-              </div>
-            </li>
-            <li>
-              <img src="images/portfolio5.jpg" alt="" />
-              <div class="card-description">
-                <p class="card-description-name">Project Boxes</p>
-                <p class="card-description-text">Apps</p>
-              </div>
-            </li>
-            <li>
-              <img src="images/portfolio6.jpg" alt="" />
-              <div class="card-description">
-                <p class="card-description-name">Inspiration has no Borders</p>
-                <p class="card-description-text">Web-site</p>
-              </div>
-            </li>
-            <li>
-              <img src="images/portfolio7.jpg" alt="" />
-              <div class="card-description">
-                <p class="card-description-name">Limited Edition</p>
-                <p class="card-description-text">Design</p>
-              </div>
-            </li>
-            <li>
-              <img src="images/portfolio8.jpg" alt="" />
-              <div class="card-description">
-                <p class="card-description-name">Project LAB</p>
-                <p class="card-description-text">Marketing</p>
-              </div>
-            </li>
-            <li>
-              <img src="images/portfolio9.jpg" alt="" />
-              <div class="card-description">
-                <p class="card-description-name">Growing Business</p>
-                <p class="card-description-text">Apps</p>
-              </div>
-            </li>
-          </ul>
+        <div class="container">
+          <div>
+            <ul class="filter-buttons-list list">
+              <li>
+                <button type="button" class="active-filter-button">All</button>
+              </li>
+              <li>
+                <button type="button" class="filter-button">Web-sites</button>
+              </li>
+              <li>
+                <button type="button" class="filter-button">Apps</button>
+              </li>
+              <li>
+                <button type="button" class="filter-button">Design</button>
+              </li>
+              <li>
+                <button type="button" class="filter-button">Marketing</button>
+              </li>
+            </ul>
+          </div>
+          <div class="container">
+            <ul class="cards-list list">
+              <li>
+                <img src="images/portfolio1.jpg" alt="" />
+                <div class="card-description">
+                  <p class="card-description-name">Technoduck</p>
+                  <p class="card-description-text">Web-site</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/portfolio2.jpg" alt="" />
+                <div class="card-description">
+                  <p class="card-description-name">
+                    Poster New Orlean vs Golden Star
+                  </p>
+                  <p class="card-description-text">Design</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/portfolio3.jpg" alt="" />
+                <div class="card-description">
+                  <p class="card-description-name">Seafood Restaurant</p>
+                  <p class="card-description-text">Apps</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/portfolio4.jpg" alt="" />
+                <div class="card-description">
+                  <p class="card-description-name">Project Prime</p>
+                  <p class="card-description-text">Marketing</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/portfolio5.jpg" alt="" />
+                <div class="card-description">
+                  <p class="card-description-name">Project Boxes</p>
+                  <p class="card-description-text">Apps</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/portfolio6.jpg" alt="" />
+                <div class="card-description">
+                  <p class="card-description-name">
+                    Inspiration has no Borders
+                  </p>
+                  <p class="card-description-text">Web-site</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/portfolio7.jpg" alt="" />
+                <div class="card-description">
+                  <p class="card-description-name">Limited Edition</p>
+                  <p class="card-description-text">Design</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/portfolio8.jpg" alt="" />
+                <div class="card-description">
+                  <p class="card-description-name">Project LAB</p>
+                  <p class="card-description-text">Marketing</p>
+                </div>
+              </li>
+              <li>
+                <img src="images/portfolio9.jpg" alt="" />
+                <div class="card-description">
+                  <p class="card-description-name">Growing Business</p>
+                  <p class="card-description-text">Apps</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
-    <footer>
-      <div class="footer-content">
-        <a href="index.html" id="logo">WebStudio</a>
-        <address>
-          <ul>
+    <footer class="footer">
+      <div class="container">
+        <a href="#" class="logo link">WebStudio</a>
+        <address class="footer-address">
+          <ul class="list">
             <li>
-              <a href="#"
+              <a class="link" href="index.html"
                 >695 Park Ave, New York, NY 10065,<br />
                 United States</a
               >
             </li>
             <li>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <a class="link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
             </li>
             <li>
-              <a href="tel:+1212-772-4150">+1 212-772-4150</a>
+              <a class="link" href="tel:+1212-772-4150">+1 212-772-4150</a>
             </li>
           </ul>
         </address>
